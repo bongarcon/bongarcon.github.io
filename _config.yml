@@ -7,13 +7,18 @@ facebook_appid:   # appid for like button, remove from /_includes/share.html if 
 google_analytics: UA-73149450-3 # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
-  - name:         About
+  - name:         blog
+    url:          /
+  - name:         about
     url:          /about
-  - name:         Blog
-    url:          http://bongarcon.github.io
+  - name:         soundcloud
+    url:          https://soundcloud.com/bongarcons
     external:     true
   - name:         twitter
-    url:          http://twitter.com/bongarcons
+    url:          https://twitter.com/bongarcons
+    external:     true
+  - name:         instagram
+    url:          https://instagram.com/pencilflies
     external:     true
 highlighter:      rouge
 permalink:        pretty
